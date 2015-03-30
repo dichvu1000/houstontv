@@ -15,13 +15,7 @@
             "token": "",
             "app": ""
         },
-        "mtv": {
-            "url": "http://www.vietstartv.com/player.swf?action=PlayClip&accion=canal&estampa=1427508813",
-            "swfurl": "",
-            "pageurl": "http://www.vietstartv.com/",
-            "token": "",
-            "app": ""
-        },
+      
         
         "vnv": {
             "url": "http://206.190.140.142/liveStream/",
@@ -98,7 +92,7 @@
             "desc": "root menu",
             "content": [
             {"type":"chn","id":"dep_tv"},
-            {"type":"chn","id":"viet_mtv"},
+           
             {"type":"chn","id":"vnv_tv"},
             {"type":"chn","id":"vietteentv"},
             {"type":"chn","id":"sbtntv"},

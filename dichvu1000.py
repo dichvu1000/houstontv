@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 #---------------------------------------------------------------------
-# File: tvvn.py
-# By:   Binh Nguyen <b@zecoj.com>
+# File: dichvu1000.py
+# By:   Phan Thai Phong <phong.phan@live.com>
 # Date: Fri Jul 11 19:33:48 AEST 2014
 #---------------------------------------------------------------------
 # This program is free software: you can redistribute it and/or modify
@@ -26,9 +26,9 @@ try:
 except:
 	import simplejson as json
 
-addon = xbmcaddon.Addon('plugin.video.tvvn')
+addon = xbmcaddon.Addon('plugin.video.houstontv')
 profile = xbmc.translatePath(addon.getAddonInfo('profile'))
-mysettings = xbmcaddon.Addon(id='plugin.video.tvvn')
+mysettings = xbmcaddon.Addon(id='plugin.video.houstontv')
 home = mysettings.getAddonInfo('path')
 fanart = xbmc.translatePath(os.path.join(home, 'fanart.jpg'))
 datafile = xbmc.translatePath(os.path.join(home, 'data.json'))
